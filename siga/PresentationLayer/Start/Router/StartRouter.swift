@@ -7,5 +7,8 @@
 //
 
 class StartRouter: StartRouterInput {
-
+    
+    func showCodeVerificationVC(withVerificationID id: String) {
+        
+    }
 }

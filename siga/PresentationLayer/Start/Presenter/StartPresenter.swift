@@ -6,16 +6,16 @@
 //  Copyright © 2018 Aliyev inc.. All rights reserved.
 //
 
-class StartPresenter: StartModuleInput, StartInteractorOutput {
+import FirebaseAuth
 
-    
+class StartPresenter: StartModuleInput, StartInteractorOutput {
 
     weak var view: StartViewInput!
     var interactor: StartInteractorInput!
     var router: StartRouterInput!
 
     func viewIsReady() {
-
+        view.setupInitialState()
     }
     
 }
@@ -25,16 +25,26 @@ extension StartPresenter: StartViewOutput {
     func signInTapped() {
         view.showSignInForm()
     }
-
-    func signUpTapped() {
-        view.showSignUpForm()
-    }
     
     func cancelTapped() {
         view.showInitialForm()
     }
+
+    func nextTapped(withPhoneNumber number: String) {
+        PhoneAuthProvider.provider().verifyPhoneNumber(number, uiDelegate: nil) { (verificationID, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+            
+            UserDefaults.standard.set(verificationID, forKey: "authVerificationID")
+
+            // Sign in using the verificationID and the code sent to the user
+            // ...
+        }
+    }
     
-    func startTapped() {
-        print("go")
+    func acceptTapped(withVerificationCode code: String) {
+        
     }
 }

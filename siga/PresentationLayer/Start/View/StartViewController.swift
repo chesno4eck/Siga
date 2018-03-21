@@ -12,25 +12,29 @@ class StartViewController: UIViewController {
 
     var output: StartViewOutput!
 
-    @IBOutlet var startButton: StandartButton!
     @IBOutlet var cancelButton: StandartButton!
     @IBOutlet var signInButton: StandartButton!
-    @IBOutlet var signUpButton: StandartButton!
+    @IBOutlet var nextButton: StandartButton!
     
     @IBOutlet var nameTextField: UITextField!
     
-    // MARK: Life cycle
+    // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewIsReady()
     }
 
+    // MARK: IBActions
     @IBAction func signInTapped(_ sender: StandartButton) {
         output.signInTapped()
     }
     
-    @IBAction func startTapped(_ sender: StandartButton) {
-        output.startTapped()
+    @IBAction func nextTapped(_ sender: StandartButton) {
+        guard let phoneNumber = PhoneNumberVerifyer.verifyPhone(nameTextField.text) else {
+            print("bad number")
+            return
+        }
+        output.nextTapped(withPhoneNumber: phoneNumber)
     }
   
     @IBAction func cancelTapped(_ sender: StandartButton) {
@@ -44,33 +48,24 @@ class StartViewController: UIViewController {
 extension StartViewController: StartViewInput {
     
     func setupInitialState() {
+        UIView.animate(withDuration: 0.95) {
+            self.view.backgroundColor = #colorLiteral(red: 0.8659310937, green: 0.8659514785, blue: 0.8659405112, alpha: 1)
+        }
     }
     
     func showSignInForm() {
         signInButton.isHidden = true
-        signUpButton.isHidden = true
         
-        startButton.isHidden = false
+        nextButton.isHidden = false
         cancelButton.isHidden = false
         
         nameTextField.isHidden = false
     }
 
-    func showSignUpForm() {
-        signInButton.isHidden = true
-        signUpButton.isHidden = true
-        
-        startButton.isHidden = false
-        cancelButton.isHidden = false
-        
-        nameTextField.isHidden = false
-    }
-    
     func showInitialForm() {
         signInButton.isHidden = false
-        signUpButton.isHidden = false
 
-        startButton.isHidden = true
+        nextButton.isHidden = true
         cancelButton.isHidden = true
         
         nameTextField.isHidden = true

@@ -1,0 +1,6 @@
+framework module Pods_siga {
+  umbrella header "Pods-siga-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -16,7 +16,6 @@ protocol StartViewInput: class {
     func setupInitialState()
     
     func showSignInForm()
-    func showSignUpForm()
 
     func showInitialForm()
 

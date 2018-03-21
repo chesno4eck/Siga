@@ -16,8 +16,7 @@ protocol StartViewOutput {
     func viewIsReady()
     
     func signInTapped()
-    func signUpTapped()
     func cancelTapped()
-    func startTapped()
-
+    func nextTapped(withPhoneNumber number: String)
+    func acceptTapped(withVerificationCode code: String) 
 }

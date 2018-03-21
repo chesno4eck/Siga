@@ -9,5 +9,5 @@
 import Foundation
 
 protocol StartRouterInput {
-
+    func showCodeVerificationVC(withVerificationID id: String)
 }
