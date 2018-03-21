@@ -1,27 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J0M-D5-Kc8">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
-        <scene sceneID="yl2-sM-qoP">
+        <!--Start View Controller-->
+        <scene sceneID="4vB-5T-S1G">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
-                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBar>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+                <viewController id="J0M-D5-Kc8" customClass="StartViewController" customModule="siga" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eyi-qP-eOt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siga" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h30-7F-MGx">
+                                <rect key="frame" x="82.5" y="195" width="209.5" height="143.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="120"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqa-MI-w3V" customClass="StandartButton" customModule="siga" customModuleProvider="target">
+                                <rect key="frame" x="37" y="487" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.18135302789999999" green="0.84007737400000004" blue="0.64949035749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="gSb-Qj-Wdy"/>
+                                    <constraint firstAttribute="height" constant="50" id="jMi-eG-X0e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.25394129030000001" green="0.25754028420000002" blue="0.26386718749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startTapped:" destination="J0M-D5-Kc8" eventType="touchUpInside" id="9qn-jU-fhb"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqU-Da-lIt" customClass="StandartButton" customModule="siga" customModuleProvider="target">
+                                <rect key="frame" x="37" y="567" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.18135302789999999" green="0.84007737400000004" blue="0.64949035749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4v5-xr-C6x"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="q04-B8-Enw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" red="0.25394129030000001" green="0.25754028420000002" blue="0.26386718749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelTapped:" destination="J0M-D5-Kc8" eventType="touchUpInside" id="S5w-G6-0Xh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRY-Lk-Xr0" customClass="StandartButton" customModule="siga" customModuleProvider="target">
+                                <rect key="frame" x="37" y="487" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.18135302787775834" green="0.84007737398147586" blue="0.64949035745229511" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="UCm-XW-DXI"/>
+                                    <constraint firstAttribute="height" constant="50" id="msP-hk-p3g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Sign in">
+                                    <color key="titleColor" red="0.25394129028332191" green="0.25754028416228153" blue="0.26386718750000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signInTapped:" destination="J0M-D5-Kc8" eventType="touchUpInside" id="0Q1-JP-Voh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGS-Vt-9Qy" customClass="StandartButton" customModule="siga" customModuleProvider="target">
+                                <rect key="frame" x="37" y="567" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.18135302789999999" green="0.84007737400000004" blue="0.64949035749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KQ6-nq-NrB"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="u1b-hg-yfr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleColor" red="0.25394129030000001" green="0.25754028420000002" blue="0.26386718749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k8Q-dc-5sU">
+                                <rect key="frame" x="37" y="427" width="300" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83426057450000002" green="0.83426057450000002" blue="0.83426057450000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xqU-Da-lIt" firstAttribute="height" secondItem="GGS-Vt-9Qy" secondAttribute="height" id="8Kj-eZ-69b"/>
+                            <constraint firstItem="k8Q-dc-5sU" firstAttribute="width" secondItem="SRY-Lk-Xr0" secondAttribute="width" id="8pU-CJ-Ufw"/>
+                            <constraint firstItem="GGS-Vt-9Qy" firstAttribute="centerX" secondItem="eyi-qP-eOt" secondAttribute="centerX" id="9Bp-QZ-bQG"/>
+                            <constraint firstItem="Vqa-MI-w3V" firstAttribute="width" secondItem="SRY-Lk-Xr0" secondAttribute="width" id="CjU-hN-eU9"/>
+                            <constraint firstItem="k8Q-dc-5sU" firstAttribute="centerX" secondItem="eyi-qP-eOt" secondAttribute="centerX" id="HIi-HC-EbS"/>
+                            <constraint firstItem="Vqa-MI-w3V" firstAttribute="centerX" secondItem="SRY-Lk-Xr0" secondAttribute="centerX" id="HeX-4i-Q3i"/>
+                            <constraint firstItem="h30-7F-MGx" firstAttribute="centerX" secondItem="eyi-qP-eOt" secondAttribute="centerX" id="Lfs-Lh-mEv"/>
+                            <constraint firstItem="h30-7F-MGx" firstAttribute="centerY" secondItem="eyi-qP-eOt" secondAttribute="centerY" multiplier="0.8" id="NHI-k7-Xuo"/>
+                            <constraint firstItem="xqU-Da-lIt" firstAttribute="width" secondItem="GGS-Vt-9Qy" secondAttribute="width" id="OpB-IY-85f"/>
+                            <constraint firstItem="GGS-Vt-9Qy" firstAttribute="top" secondItem="SRY-Lk-Xr0" secondAttribute="bottom" constant="30" id="fc3-9u-GVz"/>
+                            <constraint firstItem="Vqa-MI-w3V" firstAttribute="centerY" secondItem="SRY-Lk-Xr0" secondAttribute="centerY" id="gp6-Yg-AiC"/>
+                            <constraint firstItem="Vqa-MI-w3V" firstAttribute="top" secondItem="k8Q-dc-5sU" secondAttribute="bottom" constant="30" id="huc-dB-TNj"/>
+                            <constraint firstItem="Tdl-5O-bLq" firstAttribute="bottom" secondItem="GGS-Vt-9Qy" secondAttribute="bottom" constant="50" id="huf-S4-hJ5"/>
+                            <constraint firstItem="Vqa-MI-w3V" firstAttribute="height" secondItem="SRY-Lk-Xr0" secondAttribute="height" id="mMP-Vl-BHY"/>
+                            <constraint firstItem="SRY-Lk-Xr0" firstAttribute="centerX" secondItem="eyi-qP-eOt" secondAttribute="centerX" id="v6P-Rw-rdt"/>
+                            <constraint firstItem="xqU-Da-lIt" firstAttribute="centerX" secondItem="GGS-Vt-9Qy" secondAttribute="centerX" id="xDj-Rr-zhA"/>
+                            <constraint firstItem="xqU-Da-lIt" firstAttribute="centerY" secondItem="GGS-Vt-9Qy" secondAttribute="centerY" id="z1C-0l-iRa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Tdl-5O-bLq"/>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="xqU-Da-lIt" id="Agi-6I-clk"/>
+                        <outlet property="nameTextField" destination="k8Q-dc-5sU" id="N7Z-Lm-sRx"/>
+                        <outlet property="signInButton" destination="SRY-Lk-Xr0" id="kWn-ar-opP"/>
+                        <outlet property="signUpButton" destination="GGS-Vt-9Qy" id="OGh-vp-Ztc"/>
+                        <outlet property="startButton" destination="Vqa-MI-w3V" id="8E3-rP-xQv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4oZ-Ix-CHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-503.19999999999999" y="-7.6461769115442282"/>
         </scene>
     </scenes>
 </document>

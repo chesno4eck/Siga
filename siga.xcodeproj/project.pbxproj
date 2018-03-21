@@ -7,19 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1197948F959D40304D5C4D46 /* StartInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34C8BB3AF7EFC78593A1E0B /* StartInteractorOutput.swift */; };
+		36F9E9CCD751F96C62BA5110 /* StartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84FB6837B8C89A528D3F3EA /* StartRouter.swift */; };
+		4970E28EB49A25BD3C0951BE /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEEFDC2B1ECAE44B9871FFD /* StartPresenter.swift */; };
+		5A5E743B506251CD2A24F61D /* StartInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73001D57618D57402E6ADB3 /* StartInteractorInput.swift */; };
+		8352ED0FAB7A8E09737C9B55 /* StartConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84576A2C6594D8C1285C58C6 /* StartConfigurator.swift */; };
+		9094C8F2D73B057D01800730 /* StartViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF797B1F3F4FAEA6E9264F1 /* StartViewInput.swift */; };
+		AD454C9F686A13699C76267A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C60E3C7DF088988A9DEACD /* StartViewController.swift */; };
+		BDB336A73B609C6B1C894425 /* StartModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217B2EEF4E58D4DB717E65 /* StartModuleInput.swift */; };
+		C1BB72A9A768630953AEE32D /* StartInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB41574878C1087353708E0 /* StartInitializer.swift */; };
 		C3F10C1A2062CD40001A160F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F10C192062CD40001A160F /* AppDelegate.swift */; };
 		C3F10C212062CD40001A160F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F10C1F2062CD40001A160F /* Main.storyboard */; };
 		C3F10C232062CD40001A160F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F10C222062CD40001A160F /* Assets.xcassets */; };
 		C3F10C262062CD40001A160F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F10C242062CD40001A160F /* LaunchScreen.storyboard */; };
+		C3F10C2F2062D18B001A160F /* StandartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F10C2E2062D18B001A160F /* StandartButton.swift */; };
+		CAD9F611BA7289D3FD5042F1 /* StartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4729BE3591520A9B838A61 /* StartInteractor.swift */; };
+		CB50A2D3150D3D7C72851233 /* StartViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0EF289E91331CEFC70EDBC /* StartViewOutput.swift */; };
+		D97451575FD3C094F61E4F2D /* StartRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3097B23AC74E3B49E65C1 /* StartRouterInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17217B2EEF4E58D4DB717E65 /* StartModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartModuleInput.swift; sourceTree = "<group>"; };
+		29D3097B23AC74E3B49E65C1 /* StartRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartRouterInput.swift; sourceTree = "<group>"; };
+		3CF797B1F3F4FAEA6E9264F1 /* StartViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartViewInput.swift; sourceTree = "<group>"; };
+		4E4729BE3591520A9B838A61 /* StartInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartInteractor.swift; sourceTree = "<group>"; };
+		84576A2C6594D8C1285C58C6 /* StartConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartConfigurator.swift; sourceTree = "<group>"; };
+		B73001D57618D57402E6ADB3 /* StartInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartInteractorInput.swift; sourceTree = "<group>"; };
+		C34C8BB3AF7EFC78593A1E0B /* StartInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartInteractorOutput.swift; sourceTree = "<group>"; };
 		C3F10C162062CD40001A160F /* siga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F10C192062CD40001A160F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F10C202062CD40001A160F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3F10C222062CD40001A160F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3F10C252062CD40001A160F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3F10C272062CD40001A160F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F10C2E2062D18B001A160F /* StandartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartButton.swift; sourceTree = "<group>"; };
+		C84FB6837B8C89A528D3F3EA /* StartRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartRouter.swift; sourceTree = "<group>"; };
+		CCEEFDC2B1ECAE44B9871FFD /* StartPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
+		D6C60E3C7DF088988A9DEACD /* StartViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		DEB41574878C1087353708E0 /* StartInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartInitializer.swift; sourceTree = "<group>"; };
+		FC0EF289E91331CEFC70EDBC /* StartViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartViewOutput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20B9E4EC15F9CC17121C9B1C /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C3F10C2D2062D14A001A160F /* Style */,
+				CDB73D27F6FF532F56ED29B1 /* Start */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		2DB2A90ED6ECBDD0F1434CFF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				29D3097B23AC74E3B49E65C1 /* StartRouterInput.swift */,
+				C84FB6837B8C89A528D3F3EA /* StartRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7464E3ABAC3FCA719BF1DBC5 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				84576A2C6594D8C1285C58C6 /* StartConfigurator.swift */,
+				DEB41574878C1087353708E0 /* StartInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		7F6F61305CCF2D2593622488 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CF797B1F3F4FAEA6E9264F1 /* StartViewInput.swift */,
+				FC0EF289E91331CEFC70EDBC /* StartViewOutput.swift */,
+				D6C60E3C7DF088988A9DEACD /* StartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEC6E9D38B3EC5198BEA2E91 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B73001D57618D57402E6ADB3 /* StartInteractorInput.swift */,
+				C34C8BB3AF7EFC78593A1E0B /* StartInteractorOutput.swift */,
+				4E4729BE3591520A9B838A61 /* StartInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		C3F10C0D2062CD40001A160F = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +130,38 @@
 				C3F10C222062CD40001A160F /* Assets.xcassets */,
 				C3F10C242062CD40001A160F /* LaunchScreen.storyboard */,
 				C3F10C272062CD40001A160F /* Info.plist */,
+				20B9E4EC15F9CC17121C9B1C /* PresentationLayer */,
 			);
 			path = siga;
+			sourceTree = "<group>";
+		};
+		C3F10C2D2062D14A001A160F /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				C3F10C2E2062D18B001A160F /* StandartButton.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		CDB73D27F6FF532F56ED29B1 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F61305CCF2D2593622488 /* View */,
+				FE7A6959DC7FD06C23A045A4 /* Presenter */,
+				BEC6E9D38B3EC5198BEA2E91 /* Interactor */,
+				2DB2A90ED6ECBDD0F1434CFF /* Router */,
+				7464E3ABAC3FCA719BF1DBC5 /* Configurator */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		FE7A6959DC7FD06C23A045A4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				17217B2EEF4E58D4DB717E65 /* StartModuleInput.swift */,
+				CCEEFDC2B1ECAE44B9871FFD /* StartPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +236,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F10C2F2062D18B001A160F /* StandartButton.swift in Sources */,
 				C3F10C1A2062CD40001A160F /* AppDelegate.swift in Sources */,
+				9094C8F2D73B057D01800730 /* StartViewInput.swift in Sources */,
+				CB50A2D3150D3D7C72851233 /* StartViewOutput.swift in Sources */,
+				AD454C9F686A13699C76267A /* StartViewController.swift in Sources */,
+				BDB336A73B609C6B1C894425 /* StartModuleInput.swift in Sources */,
+				4970E28EB49A25BD3C0951BE /* StartPresenter.swift in Sources */,
+				5A5E743B506251CD2A24F61D /* StartInteractorInput.swift in Sources */,
+				1197948F959D40304D5C4D46 /* StartInteractorOutput.swift in Sources */,
+				CAD9F611BA7289D3FD5042F1 /* StartInteractor.swift in Sources */,
+				D97451575FD3C094F61E4F2D /* StartRouterInput.swift in Sources */,
+				36F9E9CCD751F96C62BA5110 /* StartRouter.swift in Sources */,
+				8352ED0FAB7A8E09737C9B55 /* StartConfigurator.swift in Sources */,
+				C1BB72A9A768630953AEE32D /* StartInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
