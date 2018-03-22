@@ -9,35 +9,48 @@
 /* Begin PBXBuildFile section */
 		04BBB8CDFA45F5C44660482C /* CodeVerificationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F207376FC8E643478940C8C /* CodeVerificationInteractorOutput.swift */; };
 		1197948F959D40304D5C4D46 /* StartInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34C8BB3AF7EFC78593A1E0B /* StartInteractorOutput.swift */; };
+		1330D19B566CF12D0D3CBEDE /* MainInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23DFC7FEB86B09E0A64DE5 /* MainInteractorInput.swift */; };
 		269D4B1CFD36484BCC5B04EC /* CodeVerificationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6434677B945C4CC5FAD6D7 /* CodeVerificationViewInput.swift */; };
 		28B4F11C2174684563826445 /* CodeVerificationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92118899A7EE45CD12CCC078 /* CodeVerificationModuleInput.swift */; };
 		36F9E9CCD751F96C62BA5110 /* StartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84FB6837B8C89A528D3F3EA /* StartRouter.swift */; };
 		3860CE966258713A62F1BF2D /* CodeVerificationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B452F89E76FA36F51D614BF7 /* CodeVerificationRouterInput.swift */; };
+		404311D8174179BF5CB093CA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9177357FA18ACF119B1C997B /* MainViewController.xib */; };
 		4970E28EB49A25BD3C0951BE /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEEFDC2B1ECAE44B9871FFD /* StartPresenter.swift */; };
 		50270B717B5FB48A56CC4347 /* CodeVerificationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26C4751D0F70920B8E2659 /* CodeVerificationInteractor.swift */; };
 		56B0A45483A082831F4252D0 /* CodeVerificationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF89570A8E752ED5B307F7C /* CodeVerificationConfigurator.swift */; };
+		587C7FE2C9F3ABA91F6268FB /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352ACD0E18051CAED40D0CEB /* MainAssembly.swift */; };
 		5A5E743B506251CD2A24F61D /* StartInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73001D57618D57402E6ADB3 /* StartInteractorInput.swift */; };
 		5E595D72E4FCF97410D74896 /* CodeVerificationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A0CBF6C3B2B2FFC92B43B /* CodeVerificationViewOutput.swift */; };
 		64A3C6A9362834908E75E46D /* CodeVerificationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D00264F33D3394F461B068 /* CodeVerificationRouter.swift */; };
 		76EFAF71009DCD5D573A1C89 /* CodeVerificationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACED9D96A880630586F3E6 /* CodeVerificationInteractorInput.swift */; };
+		7FC17E698FD190D2372D1F93 /* MainRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387C182CE0FBA979AA30378D /* MainRouterInput.swift */; };
 		8352ED0FAB7A8E09737C9B55 /* StartConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84576A2C6594D8C1285C58C6 /* StartConfigurator.swift */; };
+		8F35D594F366A934C65DDF71 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A0E8114B2E4105081D902E /* MainRouter.swift */; };
 		9094C8F2D73B057D01800730 /* StartViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF797B1F3F4FAEA6E9264F1 /* StartViewInput.swift */; };
+		97C5FBCD4D135EC6C2E9BED7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9AA89ED1A1569DB4A04A5D /* MainViewController.swift */; };
+		9D0AEB59EBFC32CEF273462C /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CB83A803749798C40C313 /* MainPresenter.swift */; };
+		ACF3D152ECB75289B05AF01B /* MainModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0DDD91DFC21735792CF41D /* MainModuleInput.swift */; };
 		AD454C9F686A13699C76267A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C60E3C7DF088988A9DEACD /* StartViewController.swift */; };
 		BDB336A73B609C6B1C894425 /* StartModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217B2EEF4E58D4DB717E65 /* StartModuleInput.swift */; };
+		C01C971107835AE3D9D8EB94 /* MainInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5BC99E52AA60FF4F1FA171 /* MainInteractorOutput.swift */; };
 		C1BB72A9A768630953AEE32D /* StartInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB41574878C1087353708E0 /* StartInitializer.swift */; };
 		C385AD812062E8820075F51E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385AD802062E8820075F51E /* User.swift */; };
 		C385AD832062E9A00075F51E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C385AD822062E9A00075F51E /* GoogleService-Info.plist */; };
 		C385AD862062F81C0075F51E /* PhoneNumberVerifyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385AD852062F81C0075F51E /* PhoneNumberVerifyer.swift */; };
 		C385AD882062FCFE0075F51E /* StartRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385AD872062FCFE0075F51E /* StartRouterInput.swift */; };
+		C385AD8A206449ED0075F51E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385AD89206449ED0075F51E /* Extensions.swift */; };
 		C3F10C1A2062CD40001A160F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F10C192062CD40001A160F /* AppDelegate.swift */; };
 		C3F10C212062CD40001A160F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F10C1F2062CD40001A160F /* Main.storyboard */; };
 		C3F10C232062CD40001A160F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F10C222062CD40001A160F /* Assets.xcassets */; };
 		C3F10C262062CD40001A160F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F10C242062CD40001A160F /* LaunchScreen.storyboard */; };
 		C3F10C2F2062D18B001A160F /* StandartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F10C2E2062D18B001A160F /* StandartButton.swift */; };
+		CA1BBE3FE31AA61DC942D1DE /* MainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEF35CCDF5B662A823B6E42 /* MainViewOutput.swift */; };
 		CAD9F611BA7289D3FD5042F1 /* StartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4729BE3591520A9B838A61 /* StartInteractor.swift */; };
 		CB50A2D3150D3D7C72851233 /* StartViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0EF289E91331CEFC70EDBC /* StartViewOutput.swift */; };
 		DCC5921E5947DAC13CBD78A2 /* CodeVerificationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA51449C295354A7595703 /* CodeVerificationPresenter.swift */; };
+		EAC1C3098FDDC62511CB363F /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A94BBB7B27C563DF72B0376 /* MainInteractor.swift */; };
 		F4EBD54095C448019345A5EA /* CodeVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B996FEBDB00E175C4F1BD /* CodeVerificationViewController.swift */; };
+		F6B6B30580B4E26C4DCB202C /* MainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5EF8CF88A3C7B6A0A4A81 /* MainViewInput.swift */; };
 		FAC1BD3082E669C255E2400A /* Pods_siga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5CFE5C031337F40C774356 /* Pods_siga.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,17 +60,29 @@
 		1AF89570A8E752ED5B307F7C /* CodeVerificationConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationConfigurator.swift; sourceTree = "<group>"; };
 		1DCA51449C295354A7595703 /* CodeVerificationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationPresenter.swift; sourceTree = "<group>"; };
 		25D00264F33D3394F461B068 /* CodeVerificationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationRouter.swift; sourceTree = "<group>"; };
+		2A9AA89ED1A1569DB4A04A5D /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2C0DDD91DFC21735792CF41D /* MainModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleInput.swift; sourceTree = "<group>"; };
+		2DEF35CCDF5B662A823B6E42 /* MainViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewOutput.swift; sourceTree = "<group>"; };
+		352ACD0E18051CAED40D0CEB /* MainAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		387C182CE0FBA979AA30378D /* MainRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterInput.swift; sourceTree = "<group>"; };
 		3C26C4751D0F70920B8E2659 /* CodeVerificationInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationInteractor.swift; sourceTree = "<group>"; };
 		3C6434677B945C4CC5FAD6D7 /* CodeVerificationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationViewInput.swift; sourceTree = "<group>"; };
 		3CF797B1F3F4FAEA6E9264F1 /* StartViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartViewInput.swift; sourceTree = "<group>"; };
+		3ED5EF8CF88A3C7B6A0A4A81 /* MainViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewInput.swift; sourceTree = "<group>"; };
+		4A5BC99E52AA60FF4F1FA171 /* MainInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorOutput.swift; sourceTree = "<group>"; };
 		4E4729BE3591520A9B838A61 /* StartInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartInteractor.swift; sourceTree = "<group>"; };
 		508A8DE63FAFB38DEE3B7087 /* Pods-siga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siga.release.xcconfig"; path = "Pods/Target Support Files/Pods-siga/Pods-siga.release.xcconfig"; sourceTree = "<group>"; };
 		687B996FEBDB00E175C4F1BD /* CodeVerificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationViewController.swift; sourceTree = "<group>"; };
+		6A94BBB7B27C563DF72B0376 /* MainInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
 		6F207376FC8E643478940C8C /* CodeVerificationInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationInteractorOutput.swift; sourceTree = "<group>"; };
+		76A0E8114B2E4105081D902E /* MainRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		783CB83A803749798C40C313 /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		84576A2C6594D8C1285C58C6 /* StartConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartConfigurator.swift; sourceTree = "<group>"; };
 		903A0CBF6C3B2B2FFC92B43B /* CodeVerificationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationViewOutput.swift; sourceTree = "<group>"; };
+		9177357FA18ACF119B1C997B /* MainViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		92118899A7EE45CD12CCC078 /* CodeVerificationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationModuleInput.swift; sourceTree = "<group>"; };
 		9B5CFE5C031337F40C774356 /* Pods_siga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_siga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD23DFC7FEB86B09E0A64DE5 /* MainInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorInput.swift; sourceTree = "<group>"; };
 		B452F89E76FA36F51D614BF7 /* CodeVerificationRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeVerificationRouterInput.swift; sourceTree = "<group>"; };
 		B73001D57618D57402E6ADB3 /* StartInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartInteractorInput.swift; sourceTree = "<group>"; };
 		C34C8BB3AF7EFC78593A1E0B /* StartInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartInteractorOutput.swift; sourceTree = "<group>"; };
@@ -65,6 +90,7 @@
 		C385AD822062E9A00075F51E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C385AD852062F81C0075F51E /* PhoneNumberVerifyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberVerifyer.swift; sourceTree = "<group>"; };
 		C385AD872062FCFE0075F51E /* StartRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartRouterInput.swift; sourceTree = "<group>"; };
+		C385AD89206449ED0075F51E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C3F10C162062CD40001A160F /* siga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F10C192062CD40001A160F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F10C202062CD40001A160F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,14 +118,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BC4188553B9107B53633F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A9AA89ED1A1569DB4A04A5D /* MainViewController.swift */,
+				9177357FA18ACF119B1C997B /* MainViewController.xib */,
+				3ED5EF8CF88A3C7B6A0A4A81 /* MainViewInput.swift */,
+				2DEF35CCDF5B662A823B6E42 /* MainViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B1EEC375420654FED5CBFA6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2C0DDD91DFC21735792CF41D /* MainModuleInput.swift */,
+				783CB83A803749798C40C313 /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		20B9E4EC15F9CC17121C9B1C /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
 				C3F10C2D2062D14A001A160F /* Style */,
 				CDB73D27F6FF532F56ED29B1 /* Start */,
 				520C27BC46FA3AB549AFEDEB /* CodeVerification */,
+				6FF36FE67A01945A2E8410A6 /* Main */,
 			);
 			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		20E3826C289823C137D05C17 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				352ACD0E18051CAED40D0CEB /* MainAssembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		22868A933218AFC0CCE5AC0D /* Presenter */ = {
@@ -118,6 +173,16 @@
 				C385AD872062FCFE0075F51E /* StartRouterInput.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		341361674C85E3B39A266845 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6A94BBB7B27C563DF72B0376 /* MainInteractor.swift */,
+				AD23DFC7FEB86B09E0A64DE5 /* MainInteractorInput.swift */,
+				4A5BC99E52AA60FF4F1FA171 /* MainInteractorOutput.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		4BC41C28D95277921D9C1C73 /* Pods */ = {
@@ -139,6 +204,18 @@
 				C86DEC9E23B8194F97E8A0F6 /* Configurator */,
 			);
 			path = CodeVerification;
+			sourceTree = "<group>";
+		};
+		6FF36FE67A01945A2E8410A6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				20E3826C289823C137D05C17 /* Assembly */,
+				E80404E68E939097E929BE9C /* Router */,
+				341361674C85E3B39A266845 /* Interactor */,
+				1B1EEC375420654FED5CBFA6 /* Presenter */,
+				04BC4188553B9107B53633F5 /* View */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		7464E3ABAC3FCA719BF1DBC5 /* Configurator */ = {
@@ -202,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				C385AD852062F81C0075F51E /* PhoneNumberVerifyer.swift */,
+				C385AD89206449ED0075F51E /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -273,6 +351,15 @@
 			children = (
 				B452F89E76FA36F51D614BF7 /* CodeVerificationRouterInput.swift */,
 				25D00264F33D3394F461B068 /* CodeVerificationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E80404E68E939097E929BE9C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				387C182CE0FBA979AA30378D /* MainRouterInput.swift */,
+				76A0E8114B2E4105081D902E /* MainRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -360,6 +447,7 @@
 				C385AD832062E9A00075F51E /* GoogleService-Info.plist in Resources */,
 				C3F10C232062CD40001A160F /* Assets.xcassets in Resources */,
 				C3F10C212062CD40001A160F /* Main.storyboard in Resources */,
+				404311D8174179BF5CB093CA /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +543,18 @@
 				3860CE966258713A62F1BF2D /* CodeVerificationRouterInput.swift in Sources */,
 				64A3C6A9362834908E75E46D /* CodeVerificationRouter.swift in Sources */,
 				56B0A45483A082831F4252D0 /* CodeVerificationConfigurator.swift in Sources */,
+				587C7FE2C9F3ABA91F6268FB /* MainAssembly.swift in Sources */,
+				7FC17E698FD190D2372D1F93 /* MainRouterInput.swift in Sources */,
+				8F35D594F366A934C65DDF71 /* MainRouter.swift in Sources */,
+				EAC1C3098FDDC62511CB363F /* MainInteractor.swift in Sources */,
+				1330D19B566CF12D0D3CBEDE /* MainInteractorInput.swift in Sources */,
+				C01C971107835AE3D9D8EB94 /* MainInteractorOutput.swift in Sources */,
+				ACF3D152ECB75289B05AF01B /* MainModuleInput.swift in Sources */,
+				C385AD8A206449ED0075F51E /* Extensions.swift in Sources */,
+				9D0AEB59EBFC32CEF273462C /* MainPresenter.swift in Sources */,
+				97C5FBCD4D135EC6C2E9BED7 /* MainViewController.swift in Sources */,
+				F6B6B30580B4E26C4DCB202C /* MainViewInput.swift in Sources */,
+				CA1BBE3FE31AA61DC942D1DE /* MainViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

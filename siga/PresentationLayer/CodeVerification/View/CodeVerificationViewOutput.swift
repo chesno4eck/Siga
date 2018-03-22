@@ -12,6 +12,8 @@ protocol CodeVerificationViewOutput {
         @author Дмитрий Алиев
         Notify presenter that view is ready
     */
-
+    
     func viewIsReady()
+    
+    func nextTapped(code: String)
 }

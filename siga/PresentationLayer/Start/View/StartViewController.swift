@@ -23,6 +23,11 @@ class StartViewController: UIViewController {
         super.viewDidLoad()
         output.viewIsReady()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
 
     // MARK: IBActions
     @IBAction func signInTapped(_ sender: StandartButton) {

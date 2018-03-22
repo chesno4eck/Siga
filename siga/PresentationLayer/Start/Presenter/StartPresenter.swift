@@ -15,6 +15,10 @@ class StartPresenter: StartModuleInput, StartInteractorOutput {
     var router: StartRouterInput!
 
     func viewIsReady() {
+//        if nil != Auth.auth().currentUser {
+//            router.showMainVC()
+//            return
+//        }
         view.setupInitialState()
     }
     
@@ -31,17 +35,22 @@ extension StartPresenter: StartViewOutput {
     }
 
     func nextTapped(withPhoneNumber number: String) {
-        PhoneAuthProvider.provider().verifyPhoneNumber(number, uiDelegate: nil) { (verificationID, error) in
-            if let error = error {
-                print(error.localizedDescription)
-                return
-            }
-            
-            UserDefaults.standard.set(verificationID, forKey: "authVerificationID")
+        
+        self.router.showCodeVerificationVC()
 
-            // Sign in using the verificationID and the code sent to the user
-            // ...
-        }
+//        
+//        PhoneAuthProvider.provider().verifyPhoneNumber(number, uiDelegate: nil) { (verificationID, error) in
+//            if let error = error {
+//                print(error.localizedDescription)
+//                return
+//            }
+//            
+//            UserDefaults.standard.set(verificationID, forKey: "authVerificationID")
+//            
+//            self.router.showCodeVerificationVC()
+//            // Sign in using the verificationID and the code sent to the user
+//            // ...
+//        }
     }
     
     func acceptTapped(withVerificationCode code: String) {

@@ -19,12 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
 
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let startVC = storyboard.instantiateInitialViewController() as! StartViewController
+        let navVC = storyboard.instantiateInitialViewController() as! UINavigationController
+        let startVC = navVC.viewControllers.first! as! StartViewController
         
         let initializer = StartModuleInitializer()
         initializer.start(startVC)
 
-        self.window?.rootViewController = startVC
+        self.window?.rootViewController = navVC
         self.window?.makeKeyAndVisible()
         
         return true

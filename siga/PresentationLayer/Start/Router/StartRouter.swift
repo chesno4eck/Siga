@@ -7,8 +7,20 @@
 //
 
 class StartRouter: StartRouterInput {
+    weak var view: StartViewController!
     
-    func showCodeVerificationVC(withVerificationID id: String) {
-        
+    func showCodeVerificationVC() {
+        guard let vc = view.storyboard?.instantiateViewController(withIdentifier: "CodeVerificationViewController") else {
+            return
+        }
+        let configurator = CodeVerificationModuleConfigurator()
+        configurator.configureModuleForViewInput(viewInput: vc)
+
+        view.show(vc, sender: nil)
+    }
+    
+    func showMainVC() {
+        let mainVC = MainAssembly.createViewControllerAndAssemblyModule()
+        view.show(mainVC, sender: nil)
     }
 }

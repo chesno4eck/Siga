@@ -30,6 +30,7 @@ class StartModuleConfigurator {
 
         presenter.interactor = interactor
         viewController.output = presenter
+        router.view = viewController
     }
 
 }
